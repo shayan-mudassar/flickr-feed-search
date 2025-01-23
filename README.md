@@ -1,59 +1,72 @@
-# Flickr Feeds Fetcher
+# Flickr Feed Search
 
-## Introduction
-Flickr Feeds Fetcher is a tool to fetch and display public photos from Flickr based on user-defined search criteria.
+Flickr Feed Search is a web application that allows users to search and view public photos from Flickr based on specific tags. It provides a user-friendly interface to display images fetched from Flickr's public feeds.
 
 ## Features
-- Fetch public photos from Flickr
-- Search photos by tags
-- Display photos in a user-friendly interface
+
+- **Tag-Based Search**: Retrieve and display photos from Flickr's public feed by entering desired tags.
+- **Responsive Design**: Optimized for various screen sizes, ensuring a seamless experience on both desktop and mobile devices.
+
+## Demo
+
+A live demo of the application is available at: [Flickr Feed Search Demo](https://shayan-mudassar.github.io/flickr-feed-search/)
 
 ## Installation
-To install the Flickr Feeds Fetcher, follow these steps:
 
-1. Clone the repository:
-    ```sh
-    git clone https://github.com/yourusername/flickr-feed-fetcher.git
-    ```
-2. Navigate to the project directory:
-    ```sh
-    cd flickr-feed-fetcher
-    ```
-3. Install the dependencies:
-    ```sh
-    npm install
-    ```
+To set up the project locally, follow these steps:
+
+1. **Clone the Repository**:
+
+   ```bash
+   git clone https://github.com/shayan-mudassar/flickr-feed-search.git
+   ```
+
+2. **Navigate to the Project Directory**:
+
+   ```bash
+   cd flickr-feed-search
+   ```
+
+3. **Install Dependencies**:
+
+   Ensure you have [Node.js](https://nodejs.org/) installed. Then, run:
+
+   ```bash
+   npm install
+   ```
 
 ## Usage
-To use the Flickr Feeds Fetcher, follow these steps:
 
-1. Start the application:
-    ```sh
-    npm start
-    ```
-2. Open your web browser and navigate to `http://localhost:3000`.
-3. Enter the tags you want to search for and click the "Search" button.
+After completing the installation:
+
+1. **Start the Development Server**:
+
+   ```bash
+   npm start
+   ```
+
+2. **Access the Application**:
+
+   Open your browser and navigate to `http://localhost:3000` to use the application.
+
+## Technologies Used
+
+- **Frontend**: React.js for building the user interface.
+- **Backend**: Node.js with Express.js to handle API requests.
+- **Styling**: CSS for styling components.
+
+## API Reference
+
+This application utilizes Flickr's Public Feed to fetch photos. For more details on the feed and its parameters, refer to Flickr's official documentation: [Flickr Services: Feed Formats](https://www.flickr.com/services/feeds/)
 
 ## Contributing
-To contribute to the Flickr Feeds Fetcher, follow these steps:
 
-1. Fork the repository.
-2. Create a new branch:
-    ```sh
-    git checkout -b feature-branch
-    ```
-3. Make your changes and commit them:
-    ```sh
-    git commit -m "Description of your changes"
-    ```
-4. Push to the branch:
-    ```sh
-    git push origin feature-branch
-    ```
-5. Open a pull request.
+Contributions are welcome! If you have suggestions or improvements, please fork the repository and submit a pull request.
 
 ## License
+
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Contact
-If you have any questions or suggestions, feel free to open an issue or contact the project maintainer at [your-email@example.com].
+---
+
+*Note: This project is for educational purposes and is not affiliated with or endorsed by Flickr.* 
